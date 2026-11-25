@@ -1,15 +1,21 @@
-# Biologia em Realidade Virtual
+# LabX · Biologia em realidade virtual
 
-Projeto acadêmico de um jogo de biologia em realidade virtual desenvolvido em Unity.
+Projeto acadêmico de um laboratório de biologia em realidade virtual, desenvolvido em Unity.
 
-## Estado do repositório
+![Unity](https://img.shields.io/badge/Unity-Realidade%20virtual-275DAD)
 
-Os arquivos do projeto ainda não foram importados. Este repositório não contém uma versão executável do jogo. As cenas, scripts e recursos estão na cópia local do projeto e precisam ser adicionados para permitir reprodução.
+## Estado do projeto
 
-## Arquivos necessários
+As cenas, scripts e recursos ainda estão na cópia local. A versão do editor será identificada por `ProjectSettings/ProjectVersion.txt` após a importação.
 
-Copie para a raiz as pastas `Assets/`, `Packages/` e `ProjectSettings/`, preservando todos os arquivos `.meta`. A versão correta do Unity será indicada por `ProjectSettings/ProjectVersion.txt` depois da importação.
+## O que importar
 
-Não inclua `Library/`, `Temp/`, `Logs/`, `Obj/`, `Builds/` ou credenciais. Recursos grandes podem precisar de Git LFS. Confira se assets de terceiros podem ser redistribuídos antes de torná-los públicos.
+| Pasta da cópia local | Conteúdo |
+| --- | --- |
+| `Assets/` | Cenas, scripts, prefabs e recursos. Preserve os arquivos `.meta`. |
+| `Packages/` | Manifesto e versões das dependências do projeto. |
+| `ProjectSettings/` | Configuração do Unity e versão do editor. |
 
-Depois da importação, documentar: cena inicial, versão do Unity, headset compatível, controles, instruções de execução e capturas do jogo.
+O Unity recria `Library/`, `Temp/`, `Logs/` e `Obj/`. Mantenha builds e credenciais fora do commit. Consulte a licença dos recursos de terceiros e use Git LFS quando necessário.
+
+Com o projeto importado, este guia pode apontar para a cena inicial, indicar o headset compatível e registrar os controles e a execução.
