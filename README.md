@@ -4,6 +4,10 @@ Projeto acadêmico de um laboratório de biologia em realidade virtual, desenvol
 
 ![Unity](https://img.shields.io/badge/Unity-Realidade%20virtual-275DAD)
 
+## Guia de leitura
+
+[Abrir o guia do projeto](docs/arquitetura.md). Veja a organização do material e um roteiro para explorá-lo.
+
 ## Estado do projeto
 
 As cenas, scripts e recursos ainda estão na cópia local. A versão do editor será identificada por `ProjectSettings/ProjectVersion.txt` após a importação.
